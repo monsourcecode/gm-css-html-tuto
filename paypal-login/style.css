@@ -47,6 +47,7 @@ body {
     border-radius: .3rem;
     border: 1px solid #777373;
     padding-left: .5rem;
+    margin-top: 1rem;
 }
 
 .inputs input:hover {
