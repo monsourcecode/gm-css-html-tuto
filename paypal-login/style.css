@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -40,6 +43,33 @@ body {
 .inputs input {
     outline: none;
     width: 60%;
-    height: 1.5rem;
+    height: 2rem;
     border-radius: .3rem;
+    border: 1px solid #777373;
+    padding-left: .5rem;
+}
+
+.inputs input:hover {
+    border-color: #2557a7;
+}
+
+.inputs input::placeholder {
+    font-size: .9rem;
+}
+
+.next {
+    margin-top: 1rem;
+    width: 63%;
+    height: 2rem;
+    border-radius: .3rem;
+    background-color: #2557a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next span {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
 }
