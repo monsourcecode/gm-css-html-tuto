@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+    .card {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .card {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .card {
+        width: 90%;
+    }
+}
+
+.card {
+    height: 55%;
+    border-radius: .3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 8rem;
+    height: 3rem;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.inputs input {
+    outline: none;
+    width: 60%;
+    height: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #777373;
+    padding-left: .5rem;
+    margin-top: 1rem;
+}
+
+.inputs input:hover {
+    border-color: #2557a7;
+}
+
+.inputs input::placeholder {
+    font-size: .9rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    width: 63%;
+    height: 2rem;
+    border-radius: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.next {
+    background-color: #2557a7;
+}
+
+.next:hover {
+    background-color: #113c80;
+}
+
+.next span {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.divider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.divider span {
+    margin-left: .2rem;
+    margin-right: .2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.left, .right {
+    width: 27%;
+    border-top: 1px solid #717179;
+}
+
+.register-btn {
+    background-color: #b1b6bf;
+}
+
+.register-btn span {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
