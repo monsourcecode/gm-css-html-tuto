@@ -58,15 +58,23 @@ body {
     font-size: .9rem;
 }
 
-.next {
+.btn {
     margin-top: 1rem;
     width: 63%;
     height: 2rem;
     border-radius: .3rem;
-    background-color: #2557a7;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.next {
+    background-color: #2557a7;
+}
+
+.next:hover {
+    background-color: #113c80;
 }
 
 .next span {
@@ -93,4 +101,14 @@ body {
 .left, .right {
     width: 27%;
     border-top: 1px solid #717179;
+}
+
+.register-btn {
+    background-color: #b1b6bf;
+}
+
+.register-btn span {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
 }
