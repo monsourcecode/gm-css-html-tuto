@@ -13,7 +13,18 @@ body {
 .card {
     width: 35%;
     height: 55%;
-    background-color: green;
     border-radius: .3rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 8rem;
+    height: 3rem;
 }
