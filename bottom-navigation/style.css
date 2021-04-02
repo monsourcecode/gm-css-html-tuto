@@ -2,23 +2,37 @@ body {
     margin: 0;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     .top-navigation {
         display: flex;
     }
 
     .bottom-navigation {
         display: none;
+        height: 3rem;
     }
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 799px) {
     .top-navigation {
         display: none;
     }
 
     .bottom-navigation {
         display: flex;
+        height: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .top-navigation {
+        display: none;
+    }
+
+    .bottom-navigation {
+        display: flex;
+        height: 3rem;
     }
 }
 
