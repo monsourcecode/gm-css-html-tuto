@@ -38,7 +38,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #297e37;
     border-radius: .5rem;
     cursor: pointer;
+    color: white;
+}
+
+.resultat {
+    margin-top: .7rem;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.resultat span {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: red;
 }
